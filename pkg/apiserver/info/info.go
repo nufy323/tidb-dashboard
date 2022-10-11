@@ -10,8 +10,8 @@ import (
 
 	"github.com/Masterminds/semver"
 	"github.com/gin-gonic/gin"
+	"github.com/ozonru/etcd/v3/clientv3"
 	"github.com/thoas/go-funk"
-	"go.etcd.io/etcd/clientv3"
 	"go.uber.org/fx"
 
 	"github.com/pingcap/tidb-dashboard/pkg/apiserver/user"

@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 
 	"github.com/joomcode/errorx"
+	"github.com/ozonru/etcd/v3/clientv3"
 	"github.com/pingcap/log"
-	"go.etcd.io/etcd/clientv3"
 	"go.uber.org/zap"
 
 	"github.com/pingcap/tidb-dashboard/util/topo"

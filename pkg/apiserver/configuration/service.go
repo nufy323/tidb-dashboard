@@ -10,7 +10,7 @@ import (
 	"sort"
 
 	"github.com/joomcode/errorx"
-	"go.etcd.io/etcd/clientv3"
+	"github.com/ozonru/etcd/v3/clientv3"
 	"go.uber.org/fx"
 	"gorm.io/gorm"
 
