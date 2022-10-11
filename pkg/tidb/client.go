@@ -14,8 +14,8 @@ import (
 
 	"github.com/VividCortex/mysqlerr"
 	"github.com/go-sql-driver/mysql"
+	"github.com/ozonru/etcd/v3/clientv3"
 	"github.com/pingcap/log"
-	"go.etcd.io/etcd/clientv3"
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 	mysqlDriver "gorm.io/driver/mysql"

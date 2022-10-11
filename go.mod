@@ -23,7 +23,7 @@ require (
 	github.com/golang-jwt/jwt v3.2.1+incompatible
 	github.com/golang/snappy v0.0.4
 	github.com/google/pprof v0.0.0-20211122183932-1daafda22083
-	github.com/google/uuid v1.0.0
+	github.com/google/uuid v1.1.2
 	github.com/gtank/cryptopasta v0.0.0-20170601214702-1f550f6f2f69
 	github.com/henrylee2cn/ameda v1.4.10
 	github.com/jarcoal/httpmock v1.0.8
@@ -32,6 +32,7 @@ require (
 	github.com/json-iterator/go v1.1.12
 	github.com/minio/sio v0.3.0
 	github.com/oleiade/reflections v1.0.1
+	github.com/ozonru/etcd/v3 v3.3.0-rc.0-grpc1.30.0
 	github.com/pingcap/check v0.0.0-20191216031241-8a5a85928f12
 	github.com/pingcap/errors v0.11.5-0.20200917111840-a15ef68f753d
 	github.com/pingcap/kvproto v0.0.0-20200411081810-b85805c9476c
@@ -46,14 +47,14 @@ require (
 	github.com/swaggo/swag v1.6.6-0.20200529100950-7c765ddd0476
 	github.com/thoas/go-funk v0.8.0
 	github.com/vmihailenco/msgpack/v5 v5.3.5
-	go.etcd.io/etcd v0.0.0-20191023171146-3cf2f69b5738
 	go.uber.org/atomic v1.9.0
 	go.uber.org/fx v1.12.0
 	go.uber.org/goleak v1.1.10
 	go.uber.org/zap v1.19.0
-	golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be
+	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	google.golang.org/grpc v1.25.1
+	google.golang.org/grpc v1.36.0
+	google.golang.org/grpc/examples v0.0.0-20221010194801-c67245195065 // indirect
 	google.golang.org/protobuf v1.28.0
 	gorm.io/driver/mysql v1.0.6
 	gorm.io/driver/sqlite v1.1.4

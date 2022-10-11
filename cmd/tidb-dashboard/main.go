@@ -26,9 +26,9 @@ import (
 	"sync"
 	"syscall"
 
+	"github.com/ozonru/etcd/v3/pkg/transport"
 	"github.com/pingcap/log"
 	flag "github.com/spf13/pflag"
-	"go.etcd.io/etcd/pkg/transport"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
